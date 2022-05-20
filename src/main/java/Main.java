@@ -16,6 +16,11 @@ public class Main {
         System.out.println("The length of the longest non-repeating character substring is " + maxLength);
     }
 
+    /**
+     * The function to define the length of the longest substring without repeating characters
+     * @param givenString the string passed to function as parameter
+     * @return the length of the longest substring without repeating characters
+     */
     public static int longestUniqueSubstring(String givenString) {
         int length = givenString.length();
         int result = 0;
